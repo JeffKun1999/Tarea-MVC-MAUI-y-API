@@ -1,0 +1,6 @@
+@API_desde_cero_JR_HostAddress = http://localhost:5091
+
+GET {{API_desde_cero_JR_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
