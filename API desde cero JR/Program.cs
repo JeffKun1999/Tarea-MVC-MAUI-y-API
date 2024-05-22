@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using API_desde_cero_JR.Data;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<API_desde_cero_JRContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("API_desde_cero_JRContext") ?? throw new InvalidOperationException("Connection string 'API_desde_cero_JRContext' not found.")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BDs_JR_para_API_desde_ceroContext") ?? throw new InvalidOperationException("Connection string 'API_desde_cero_JRContext' not found.")));
 
 // Add services to the container.
 
