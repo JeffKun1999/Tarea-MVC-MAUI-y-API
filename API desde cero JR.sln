@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API desde cero JR", "API desde cero JR\API desde cero JR.csproj", "{76481B83-7B19-4870-B5A4-7AB39C75468B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API desde cero JR", "API desde cero JR\API desde cero JR.csproj", "{76481B83-7B19-4870-B5A4-7AB39C75468B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDs JR para API desde cero", "..\..\..\..\..\source\repos\BDs JR para API desde cero\BDs JR para API desde cero\BDs JR para API desde cero.csproj", "{6584305D-6B92-4733-9118-6A2DE9E248FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAUIJRBurger", "..\Maui\MAUIJRBurger\MAUIJRBurger.csproj", "{72B005DE-80A9-42EC-980F-F58888618506}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,16 @@ Global
 		{76481B83-7B19-4870-B5A4-7AB39C75468B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76481B83-7B19-4870-B5A4-7AB39C75468B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76481B83-7B19-4870-B5A4-7AB39C75468B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6584305D-6B92-4733-9118-6A2DE9E248FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6584305D-6B92-4733-9118-6A2DE9E248FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6584305D-6B92-4733-9118-6A2DE9E248FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6584305D-6B92-4733-9118-6A2DE9E248FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B005DE-80A9-42EC-980F-F58888618506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B005DE-80A9-42EC-980F-F58888618506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B005DE-80A9-42EC-980F-F58888618506}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{72B005DE-80A9-42EC-980F-F58888618506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B005DE-80A9-42EC-980F-F58888618506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B005DE-80A9-42EC-980F-F58888618506}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
