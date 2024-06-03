@@ -10,6 +10,7 @@ public static class BurgerEndpoints
     public static void MapBurgerEndpoints (this IEndpointRouteBuilder routes)
     {
         var group = routes.MapGroup("/api/Burger").WithTags(nameof(Burger));
+        //
 
         group.MapGet("/", async (API_desde_cero_JRContext db) =>
         {
